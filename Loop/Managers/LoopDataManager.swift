@@ -62,7 +62,7 @@ final class LoopDataManager {
             defaultAbsorptionTimes: (
                 fast: TimeInterval(hours: 2),
                 medium: TimeInterval(hours: 3),
-                slow: TimeInterval(hours: 4)
+                slow: TimeInterval(hours: 8)
             ),
             carbRatioSchedule: carbRatioSchedule,
             insulinSensitivitySchedule: insulinSensitivitySchedule
