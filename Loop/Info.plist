@@ -81,6 +81,21 @@ Glucose data retrieved from the CGM is stored securely in HealthKit.</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 		<string>UIInterfaceOrientationPortraitUpsideDown</string>
 	</array>
+	<key>UIApplicationShortcutItems</key>
+	<array>
+		<dict>
+			<key>UIApplicationShortcutItemTitle</key>
+			<string>Carbs</string>
+			<key>UIApplicationShortcutItemType</key>
+			<string>com.kt.loop.addcarbs</string>
+		</dict>
+		<dict>
+			<key>UIApplicationShortcutItemTitle</key>
+			<string>Bolus</string>
+			<key>UIApplicationShortcutItemType</key>
+			<string>com.kt.loop.bolus</string>
+		</dict>
+	</array>
 	<key>UISupportedInterfaceOrientations~ipad</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
